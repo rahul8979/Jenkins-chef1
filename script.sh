@@ -2,7 +2,7 @@
 grep -i "0 failures" output.txt
 if [ $(echo $?) == 1 ]
  then
-  echo "fail"
+  exit 1
 else
-  echo "success"
+  exit 0
 fi

@@ -1,0 +1,20 @@
+-----> Starting Kitchen (v1.20.0)
+-----> Verifying <default-ubuntu-1404>...
+       Loaded tests from {:path=>".home.rahul.chef-repo.cookbooks.prac1.test.integration.default"} 
+
+Profile: tests from {:path=>"/home/rahul/chef-repo/cookbooks/prac1/test/integration/default"} (tests from {:path=>".home.rahul.chef-repo.cookbooks.prac1.test.integration.default"})
+Version: (not specified)
+Target:  ssh://kitchen@localhost:32792
+
+  User root
+[38;5;247m     ↺  [0m
+  Port 80
+[38;5;41m     ✔  should be listening[0m
+  System Package nginx
+[38;5;41m     ✔  should be installed[0m
+  Service nginx
+[38;5;41m     ✔  should be enabled[0m
+
+Test Summary: [38;5;41m3 successful[0m, 0 failures, [38;5;247m1 skipped[0m
+       Finished verifying <default-ubuntu-1404> (0m0.16s).
+-----> Kitchen is finished. (0m1.44s)

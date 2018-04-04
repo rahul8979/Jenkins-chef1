@@ -9,7 +9,7 @@ package "nginx" do
 end
 
 service "nginx" do
-  action [ :start, :restart ]
+  action [ :start, :enable ]
 end
 
 

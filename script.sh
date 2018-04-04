@@ -1,6 +1,6 @@
 #!/bin/sh
-
-if [ `grep -i "0 failures" output.txt` ]
+grep -i "0 failures" output.txt
+if [ $(echo $?) == 1 ]
  then
   echo "fail"
 else
